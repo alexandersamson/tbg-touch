@@ -1,0 +1,6 @@
+<div [class]="'main-overview'" [style.width]="dimensions.screenWidth + 'px'" [style.height]="dimensions.screenHeight + 'px'">
+  <div [class]="'hint-overview'" [style.width]="dimensions.hintAndGameSplit + '%'" [style.height]="'100%'"></div>
+  <div [class]="'game-overview'" [style.width]="100 - dimensions.hintAndGameSplit + '%'" [style.height]="'100%'">
+    <app-game-screen></app-game-screen>
+  </div>
+</div>

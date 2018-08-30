@@ -1,0 +1,7 @@
+<div [class]="'game-overview-content'">
+  <div [class]="'timer-content'" [style.width]="'100%'" [style.height]="dimensions.timerSplit + '%'"></div>
+  <div [class]="'game-content'" [style.width]="'100%'" [style.height]="100 - dimensions.timerSplit + '%'">
+    <div [class]="'game-selector'" [style.width]="dimensions.gameTabsSplit + '%'" [style.height]="'100%'"></div>
+    <div [class]="'game-module'" [style.width]="100 - dimensions.gameTabsSplit + '%'" [style.height]="'100%'"></div>
+  </div>
+</div>

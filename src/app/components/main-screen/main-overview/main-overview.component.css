@@ -1,0 +1,14 @@
+div.main-overview{
+  border: 1px solid blue;
+  overflow: hidden;
+}
+
+div.hint-overview{
+  background-color: green;
+  float: left;
+}
+
+div.game-overview{
+  background-color: #b14834;
+  float: left;
+}

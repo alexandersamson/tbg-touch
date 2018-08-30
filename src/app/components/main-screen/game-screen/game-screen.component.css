@@ -1,0 +1,22 @@
+div.game-overview-content{
+  width: 100%;
+  height: 100%;
+}
+
+div.timer-content{
+  background-color: #b14834;
+}
+
+div.game-content{
+  overflow: hidden;
+}
+
+div.game-selector{
+  float: left;
+  background-color: darkgray;
+}
+
+div.game-module{
+  float: left;
+  background-color: #c4c4c4;
+}
