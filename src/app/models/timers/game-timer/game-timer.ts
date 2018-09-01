@@ -4,20 +4,24 @@ export class GameTimer {
   id: number;
   name: string;
   timerValue: number;
-  timerSetValue: number;
+  timerStartValue: number;
+  timerGoalValue: number;
   timerSpeed: number;
   direction: string;
   decimal: string;
   delimiter: string;
   state: string;
   intervalTimer: any;
+  amountPerTick: number;
 
   constructor() {
     this.id = 0;
     this.name = 'timer';
-    this.timerValue = 36000;
-    this.timerSetValue = 36000;
-    this.timerSpeed = 100;
+    this.timerValue = 360;
+    this.timerStartValue = 360;
+    this.timerGoalValue = 0;
+    this.timerSpeed = 1000;
+    this.amountPerTick = 1;
     this.direction = 'down';
     this.decimal = '.';
     this.delimiter = ':';

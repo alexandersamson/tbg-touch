@@ -11,6 +11,7 @@ import { ModuleContainer } from './models/modules/module-container';
 import { GameTimer } from './models/timers/game-timer/game-timer';
 
 import { TimerService } from './services/timer.service';
+import { AudioService } from './services/audio.service';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { TimerService } from './services/timer.service';
     Dimensions,
     ModuleContainer,
     GameTimer,
-    TimerService
+    TimerService,
+    AudioService
   ],
   bootstrap: [
     AppComponent
