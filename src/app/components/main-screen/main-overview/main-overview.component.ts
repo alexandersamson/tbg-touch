@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Dimensions} from '../../../globals/dimensions';
-import {ModuleContainer} from '../../../models/modules/module-container';
 
 @Component({
   selector: 'app-main-overview',
@@ -9,13 +8,11 @@ import {ModuleContainer} from '../../../models/modules/module-container';
 })
 export class MainOverviewComponent implements OnInit {
 
-  constructor(public dimensions: Dimensions, public moduleContainer: ModuleContainer) {
+  constructor(public dimensions: Dimensions) {
     this.dimensions = new Dimensions();
-    this.moduleContainer = new ModuleContainer();
   }
 
   ngOnInit() {
-    console.log(this.moduleContainer.moduleSelected);
   }
 
 }

@@ -9,7 +9,7 @@ export class ModuleContainer {
 
   constructor() {
     this.id = 0;
-    this.name = 'default modules container';
+    this.name = 'default game-modules container';
     this.modulesAvailable = {'keypad': KeypadModel};
     this.modulesUsed = [this.modulesAvailable['keypad']];
     this.moduleSelected = this.modulesAvailable['keypad'];

@@ -4,20 +4,10 @@ div.game-overview-content{
 }
 
 div.timer-content{
-  background-color: #f5d9d5;
+  background-color: black;
   overflow: hidden;
 }
 
-div.game-content{
+div.game-modules{
   overflow: hidden;
-}
-
-div.game-selector{
-  float: left;
-  background-color: darkgray;
-}
-
-div.game-module{
-  float: left;
-  background-color: #c4c4c4;
 }

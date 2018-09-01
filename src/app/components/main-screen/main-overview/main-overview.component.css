@@ -1,9 +1,8 @@
 div.main-overview{
-  border: 1px solid blue;
   overflow: hidden;
 }
 
-div.hint-overview{
+div.info-overview{
   background-color: green;
   float: left;
 }

@@ -12,6 +12,11 @@ import { GameTimer } from './models/timers/game-timer/game-timer';
 
 import { TimerService } from './services/timer.service';
 import { AudioService } from './services/audio.service';
+import { GameModulesComponent } from './components/main-screen/game-screen/game-modules/game-modules.component';
+import { ModuleScreenComponent } from './components/main-screen/game-screen/game-modules/module-screen/module-screen.component';
+import { SelectorScreenComponent } from './components/main-screen/game-screen/game-modules/selector-screen/selector-screen.component';
+import { InfoScreenComponent } from './components/main-screen/info-screen/info-screen.component';
+import { MainScreenComponent } from './components/main-screen/main-screen.component';
 
 
 @NgModule({
@@ -19,7 +24,12 @@ import { AudioService } from './services/audio.service';
     AppComponent,
     MainOverviewComponent,
     GameScreenComponent,
-    TimerComponent
+    TimerComponent,
+    GameModulesComponent,
+    ModuleScreenComponent,
+    SelectorScreenComponent,
+    InfoScreenComponent,
+    MainScreenComponent
   ],
   imports: [
     BrowserModule
